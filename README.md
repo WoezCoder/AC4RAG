@@ -33,6 +33,7 @@ To get started, you'll need to set up a few services and configurations:
      ```bash
      pip install -r requirements.txt
      ```
+**Note:** Be aware of the costs associated with setting up and running the project. 
 
 ## Usage 
 1. Run main.py
