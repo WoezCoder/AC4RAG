@@ -16,7 +16,7 @@ credential = AzureKeyCredential(os.environ['AZURE_SEARCH_ADMIN_KEY'])
 indexer_name = os.environ['AZURE_SEARCH_INDEX']
 
 df = pd.read_csv("data/QA_dataset.csv")
-methods = ["semantic"]  # ["agentic_breakpoint", "agentic_full_text", "semantic", "fixed_length"]
+methods = ["agentic_breakpoint", "agentic_full_text", "semantic", "fixed_length"]
 number_of_docs = [1, 3, 5]
 
 client = SearchIndexClient(endpoint=endpoint, credential=credential)

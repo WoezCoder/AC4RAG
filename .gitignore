@@ -161,9 +161,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-
-data/agentic_breakpoint
 data/agentic_full_text
-data/fixed_length
+data/agentic_breakpoint
 data/semantic
-
+data/fixed_length
+.idea
