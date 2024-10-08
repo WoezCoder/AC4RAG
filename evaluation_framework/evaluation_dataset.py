@@ -15,7 +15,7 @@ llm = ChatOpenAI(temperature=0, model="gpt-4o", openai_api_key=os.environ['OPENA
 evaluation_prompt = """
     ###Task Description:
     An instruction (might include an Input inside it), a response to evaluate, a reference answer that gets a score of 5, 
-    and a score rubric representing a evaluation criteria are given.
+    and a score rubric representing an evaluation criteria are given.
     
     Write a score that is an integer between 1 and 5. You should refer to the score rubric.
 
