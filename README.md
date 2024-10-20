@@ -2,7 +2,7 @@
 
 
 ## Description
-This repository is made for a master thesis in Econometrics at the Erasmus University Rotterdom. We investigate how Retrieval Augmented Generation (RAG) systems can be improved to perform more effectively. 
+This repository is made for the paper AC4RAG: Agentic Chunking for Retrieval Augmented Generation. 
 We propose a novel chunking technique (AC4RAG V1 and V2) for dividing input text into chunks for RAG. The novel method uses GPT 4-o to perform chunking. 
 We introduce AC4RAG, with two versions:
 
