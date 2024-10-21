@@ -3,11 +3,11 @@
 
 ## Description
 This repository is made for the paper AC4RAG: Agentic Chunking for Retrieval Augmented Generation. 
-We propose a novel chunking technique (AC4RAG V1 and V2) for dividing input text into chunks for RAG. The novel method uses GPT 4-o to perform chunking. 
+We propose a novel chunking technique (One-Pass and Iterative AC4RAG) for dividing input text into chunks for RAG. The novel method uses GPT 4-o to perform chunking. 
 We introduce AC4RAG, with two versions:
 
-  - AC4RAG V1: Divides the full text into chunks and returns them.
-  - AC4RAG V2: Utilizes GPT-4 to find a breakpoint sentence every 2000 words, which is then used to filter the text into chunks.
+  - One-Pass AC4RAG: Divides the full text into chunks and returns them.
+  - Iterative AC4RAG: Utilizes GPT-4 to find a breakpoint sentence every 2000 words, which is then used to filter the text into chunks.
 
 
 ## Installation
