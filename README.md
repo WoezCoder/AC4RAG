@@ -40,3 +40,5 @@ To get started, you'll need to set up a few services and configurations:
 2. Navigate to the evaluation_framework/metrics directory and run the metric evaluation scripts.
 3. Navigate to the evaluation_framework/plots directory and run the plotting scripts to visualize the results.
 
+## License 
+CC-BY 4.0
